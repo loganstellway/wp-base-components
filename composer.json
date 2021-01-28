@@ -1,0 +1,36 @@
+{
+    "name": "lstellway/wp-base-components",
+    "description": "WordPress base components",
+    "type": "wordpress-muplugin",
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "advanced-custom-fields/advanced-custom-fields-pro",
+                "version": "5.9.4",
+                "type": "wordpress-plugin",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%ACF_PRO_KEY}&t={%version}"
+                },
+                "require": {
+                    "ffraenz/private-composer-installer": "^5.0"
+                }
+            }
+        }
+    ],
+    "require": {
+        "advanced-custom-fields/advanced-custom-fields-pro": "5.9.4",
+        "wp-cli/wp-cli": "^2.1",
+        "wp-graphql/wp-graphql": "^1.0",
+        "wp-graphql/wp-graphql-acf": "^0.4.1",
+        "ps/image-optimizer": "^1.2",
+        "humanmade/s3-uploads": "^2.2",
+        "sendgrid/sendgrid": "^7.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "LoganStellway\\Base\\": "src"
+        }
+    }
+}
