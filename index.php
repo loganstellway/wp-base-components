@@ -8,3 +8,5 @@ Version: 0.0.1
 Author: Logan Stellway
 Author URI: https://www.loganstellway.com
 */
+
+\LoganStellway\Base\App\Setup::setup();

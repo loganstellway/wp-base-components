@@ -1,10 +1,12 @@
 <?php
 
+use LoganStellway\Base\App;
+
 function lstellway_container()
 {
     static $container;
     if (!$container) {
-        $container = new \LoganStellway\Base\App\Container();
+        $container = new App\Container();
     }
     return $container;
 }

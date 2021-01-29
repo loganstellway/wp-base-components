@@ -3,6 +3,7 @@
     "description": "WordPress base components",
     "type": "wordpress-muplugin",
     "require": {
+        "defuse/php-encryption": "^2.2",
         "wp-cli/wp-cli": "^2.1",
         "wp-graphql/wp-graphql": "^1.0",
         "wp-graphql/wp-graphql-acf": "^0.4.1",
