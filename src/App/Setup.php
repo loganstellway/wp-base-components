@@ -19,6 +19,8 @@ class Setup
     {
         if (self::isReady()) {
             new Admin\Options();
+            new ImageOptimization();
+            new S3();
         }
     }
 }

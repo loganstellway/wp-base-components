@@ -39,7 +39,7 @@ class Options
      */
     public function registerOptions()
     {
-        (new Options\SendGrid())->registerOptions();
+        (new Options\ImageOptimization())->registerOptions();
     }
 
     /**

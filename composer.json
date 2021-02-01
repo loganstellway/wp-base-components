@@ -4,12 +4,13 @@
     "type": "wordpress-muplugin",
     "require": {
         "defuse/php-encryption": "^2.2",
+        "humanmade/s3-uploads": "^2.2",
+        "ps/image-optimizer": "^1.2",
         "wp-cli/wp-cli": "^2.1",
         "wp-graphql/wp-graphql": "^1.0",
         "wp-graphql/wp-graphql-acf": "^0.4.1",
-        "ps/image-optimizer": "^1.2",
-        "humanmade/s3-uploads": "^2.2",
-        "sendgrid/sendgrid": "^7.9"
+        "wpackagist-plugin/contact-form-7": "*",
+        "wpackagist-plugin/wp-mail-smtp": "*"
     },
     "autoload": {
         "files": [
