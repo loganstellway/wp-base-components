@@ -53,7 +53,7 @@ abstract class AbstractOptions implements OptionsInterface
      */
     protected function getSection(): string
     {
-        return Options::OPTIONS_KEY . "_" . self::$section;
+        return Options::OPTIONS_KEY . "_" . $this::$section;
     }
 
     /**
